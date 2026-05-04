@@ -1,0 +1,50 @@
+body {
+    margin: 0 !important;
+    min-height: 100vh !important;
+    font-family: 'Poppins', sans-serif !important;
+    background: linear-gradient(135deg, #667eea, #764ba2, #ff758c) !important;
+    background-size: 300% 300% !important;
+    animation: gradientMove 10s ease infinite !important;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.card {
+    border-radius: 20px !important;
+    background: rgba(255, 255, 255, 0.92) !important;
+    backdrop-filter: blur(12px) !important;
+}
+
+h1 {
+    color: white !important;
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+button {
+    border-radius: 30px !important;
+}
+
+.table {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+.summary-box {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 12px;
+    min-height: 60px;
+}
